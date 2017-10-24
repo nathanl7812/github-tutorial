@@ -74,13 +74,6 @@ Git pull - Bring any changes from remote repo down to local
 git checkout -- <file>... - to discard changes in working directory
 git add <file>... - to update what will be committed
 git reset HEAD <file>... - To unstage or undo the add
-
-
-
-
-
-
-
 ```
 ---
 ## Rolling Back Changes
