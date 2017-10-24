@@ -91,26 +91,3 @@ git reset HEAD <file>... - To unstage or undo the add
 3) Type in __git commit -m "a description of what you did in present tense"__   
 (For example __git commit -m "edit"__)
 4) Type in __git push__ (You can use this after everytime you commit or after a couple commits)
----
----
----
----
----
----
----
----
----
----
----
----
----
-
-# Change it up #
-
-Edit: type git status and read it it tell you to use git checkout -- .... this command undo's the edit you made to the file.
-
-Add: type git status it should be green. If you type git status again, it should tell you how to un-add a file. Read what it says to un-add you type git reset HEAD ...
-
-Commit: to undo the commit you use git reset --soft HEAD^
-
-Push: type git log which shows you a log of your previous commits. there you see the SHA key of your commit next you revert which undo's your push.
